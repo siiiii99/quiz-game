@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>لعبة الأسئلة</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>لعبة الأسئلة</h1>
+    <div id="game">
+      <div id="question-container">
+        <div id="question" class="question">السؤال سيظهر هنا</div>
+        <ul id="options" class="options"></ul>
+      </div>
+      <button id="next-btn" class="hidden">السؤال التالي</button>
+    </div>
+    <div id="result" class="hidden">
+      <p class="score">لقد حصلت على <span id="score"></span> نقطة من <span id="total"></span></p>
+      <button id="restart-btn">أعد اللعب</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
